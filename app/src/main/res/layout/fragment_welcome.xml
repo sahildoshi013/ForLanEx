@@ -1,0 +1,42 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="bottom">
+
+    <TextView
+        android:id="@+id/tvLogIn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border"
+        android:hint="@string/log_in"
+        android:padding="16dp"
+        android:layout_below="@id/tvTitle"
+        android:fontFamily="@font/colortube"
+        android:layout_marginStart="@dimen/dimen_16dp"
+        android:layout_marginLeft="@dimen/dimen_16dp"
+        android:layout_marginEnd="@dimen/dimen_16dp"
+        android:layout_marginRight="@dimen/dimen_16dp"
+        android:textColor="@android:color/white"
+        android:textColorHint="@android:color/white"
+        android:layout_marginTop="@dimen/dimen_28dp"
+        android:drawableEnd="@drawable/ic_keyboard_arrow_right_white_24dp"
+        android:drawableRight="@drawable/ic_keyboard_arrow_right_white_24dp" />
+
+
+    <TextView
+        android:id="@+id/tvSignUp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border"
+        android:hint="@string/sign_up_your_account"
+        android:padding="16dp"
+        android:fontFamily="@font/colortube"
+        android:layout_below="@id/tvLogIn"
+        android:layout_margin="@dimen/dimen_16dp"
+        android:textColor="@android:color/white"
+        android:textColorHint="@android:color/white"
+        android:layout_marginTop="@dimen/dimen_28dp"
+        android:drawableEnd="@drawable/ic_keyboard_arrow_right_white_24dp"
+        android:drawableRight="@drawable/ic_keyboard_arrow_right_white_24dp" />
+
+</RelativeLayout>

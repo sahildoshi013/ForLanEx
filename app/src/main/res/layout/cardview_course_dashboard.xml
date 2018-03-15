@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="180dp"
+    android:layout_height="200dp"
+    app:cardCornerRadius="3dp"
+    android:background="@color/colorYellow">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:background="@android:color/transparent">
+        <ImageView
+            android:id="@+id/ivContentFlag"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:adjustViewBounds="true"
+            android:scaleType="fitXY"
+            android:src="@drawable/germany_a1"
+            android:background="@android:color/transparent"/>
+        <TextView
+            android:id="@+id/tvMetaTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Beginner"
+            android:textSize="@dimen/dimen_16sp"
+            android:textColor="@android:color/black"
+            android:paddingStart="@dimen/dimen_8dp"
+            android:paddingLeft="@dimen/dimen_8dp"
+            android:paddingEnd="@dimen/dimen_8dp"
+            android:paddingRight="@dimen/dimen_8dp" />
+        <TextView
+            android:id="@+id/tvMetaDesc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Level"
+            android:paddingStart="@dimen/dimen_8dp"
+            android:paddingLeft="@dimen/dimen_8dp"
+            android:paddingEnd="@dimen/dimen_8dp"
+            android:paddingRight="@dimen/dimen_8dp"/>
+<!--
+    <TextView
+        android:id="@+id/tvContentTxt0"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:padding="@dimen/dimen_16dp"
+        android:text="Beginner"
+        android:textColor="@color/colorYellow"
+        android:textSize="180sp"
+        tools:text="saasdas" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="Level"
+        android:textSize="14sp" />-->
+    </LinearLayout>
+</android.support.v7.widget.CardView>

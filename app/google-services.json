@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "192296237354",
+    "firebase_url": "https://mfli-538aa.firebaseio.com",
+    "project_id": "mfli-538aa",
+    "storage_bucket": "mfli-538aa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:192296237354:android:e0f5f0646dee400f",
+        "android_client_info": {
+          "package_name": "com.example.sahilj.mfli"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "192296237354-e9190qjj41ism1lo7nh0mrngplvvvjc7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.sahilj.mfli",
+            "certificate_hash": "f88f8a8d648f5cdd26f1e9d88221c31befea2c01"
+          }
+        },
+        {
+          "client_id": "192296237354-n16b1kldnp89gfjuj7u94g78psmpkrqc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAL4dBdgj5CGRioPy2KB_lx3hROtFRT1K4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "192296237354-n16b1kldnp89gfjuj7u94g78psmpkrqc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

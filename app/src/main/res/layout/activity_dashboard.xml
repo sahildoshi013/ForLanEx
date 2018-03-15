@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/svMain"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fadeScrollbars="true"
+    android:orientation="vertical"
+    android:background="#f0f0f0">
+
+    <LinearLayout
+        android:id="@+id/llTop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ss.com.bannerslider.views.BannerSlider
+            android:id="@+id/slider"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            app:loopSlides="true"
+            app:interval="7000"
+            app:defaultIndicators="circle"/>
+
+
+
+       <!-- <include layout="@layout/course_outline"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"/>
+
+
+        <include layout="@layout/course_outline"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"/>
+
+
+        <include layout="@layout/course_outline"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"/>
+
+
+        <include layout="@layout/course_outline"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"/>
+-->
+    </LinearLayout>
+</ScrollView>
